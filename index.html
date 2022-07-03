@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138896318-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-138896318-1');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Robert Garcia | Portfolio Website </title>
+  <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+  <!-- Include jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+  <!-- Move to up bottom -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <!-- navigation menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="/">Robert Garcia</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="tel:+4807207080" title="Call Me"><i class="fas fs-xl fa-regular fa-mobile-screen-button"></i></a>
+        <a href="mailto:robert.c.garcia@gmail.com" title="Email Me"><i class="fa-solid fa-lg fa-envelope"></i></a>
+        <a href="http://www.linkedin.com/in/robertcgarcia" title="LinkedIn" target="_blank"><i
+            class="fa-brands fa-lg fa-linkedin-in"></i></a>
+        <a href="https://github.com/robertcgarcia" title="GitHub" target="_blank"><i
+            class="fab fa-lg fa-brands fa-github"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="background-overlay">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Robert Garcia</div>
+          <div class="text-three">ServiceNow Bootcamp Student</div>
+          <div class="text-four">From Phoenix, Arizona</div>
+        </div>
+        <div class="button">
+          <button><a href="#coverLetter" rel="modal:open">Cover Letter</a></button>
+          <div id="coverLetter" class="modal">
+            <a href="/docs/RobertGarciaCoverLetterInfosys2022.pdf" target="_blank"><img
+                src="/images/RobertGarciaCoverLetterInfosys2022.jpg" style="width: 100%;" alt="Image of cover letter"></a>
+            <p>Click image to download PDF</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          <button><a href="#resume" rel="modal:open">Resume</a></button>
+          <div id="resume" class="modal">
+            <a href="/docs/RobertGarciaResumeInfosys2022.pdf" target="_blank"><img
+                src="/images/RobertGarciaResumeInfosys2022.jpg" style="width: 100%;" alt="Image of resume"></a>
+            <p>Click image to download PDF</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/profile-pic.jpg" alt="Profile Picture">
+        </div>
+        <div class="right">
+          <div class="topic">Hi, I'm Robert</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, porro veritatis pariatur, nobis
+            voluptatem ipsum repellat nemo quisquam error reprehenderit recusandae odio vel, suscipit. Voluptas mollitia
+            accusantium quaerat aspernatur labore dolorum placeat ipsa sint nam perspiciatis eos consectetur veritatis
+            debitis, quis aliquam unde sed maiores sit!</p>
+          <div class="blockquote-wrapper">
+            <div class="blockquote">
+              <h1>
+                My why is to inspire my family and others to follow their dreams in life, to bring inspiration, and to
+                empower them to achieve more.
+              </h1>
+            </div>
+          </div>
+          <p>Hic molestiae optio iste iure earum amet nostrum quaerat facere quae veniam maiores harum iusto aperiam vel
+            inventore illo voluptatibus voluptates quo impedit voluptatum error vitae, omnis praesentium?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section Start -->
+  <section class="portfolio" id="certs">
+    <div class="content">
+      <div class="title"><span>My Certifications</span></div>
+        <div class="boxes">
+          <div class="box">
+            <a href="#cert1" rel="modal:open">
+              <div class="icon">
+                <i class="fa-regular fa-file-lines"></i>
+              </div>
+              <div class="topic">The Web Development Bootcamp</div>
+              <p>Certification of Completion</p>
+              <p>uDemy - 2018</p>
+            </a>
+          </div>
+          <div id="cert1" class="modal">
+            <a href="https://www.udemy.com/certificate/UC-MOJ3VU7Y/" target="_blank"><img
+                src="/images/uDemyWebDevBootcampCert.jpg" style="width: 100%;"
+                alt="udemy Web Development Certification of Completion 2018"></a>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          <div class="box">
+            <a href="#cert2" rel="modal:open">
+              <div class="icon">
+                <i class="fa-regular fa-file-lines"></i>
+              </div>
+              <div class="topic">Certification</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+                eligendi?</p>
+            </a>
+          </div>
+          <div id="cert2" class="modal">
+            <p>Thanks for clicking. More certifications coming soon.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          <div class="box">
+            <a href="#cert3" rel="modal:open">
+              <div class="icon">
+                <i class="fa-regular fa-file-lines"></i>
+              </div>
+              <div class="topic">Certification</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+                eligendi?</p>
+            </a>
+          </div>
+          <div id="cert3" class="modal">
+            <p>Thanks for clicking. More certifications coming soon.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          <div class="box">
+            <a href="#cert4" rel="modal:open">
+              <div class="icon">
+                <i class="fa-regular fa-file-lines"></i>
+              </div>
+              <div class="topic">Certification</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+                eligendi?</p>
+            </a>
+          </div>
+          <div id="cert4" class="modal">
+            <p>Thanks for clicking. More certifications coming soon.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          <div class="box">
+            <a href="#cert5" rel="modal:open">
+              <div class="icon">
+                <i class="fa-regular fa-file-lines"></i>
+              </div>
+              <div class="topic">Certification</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+                eligendi?</p>
+            </a>
+          </div>
+          <div id="cert5" class="modal">
+            <p>Thanks for clicking. More certifications coming soon.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+          <div class="box">
+            <a href="#cert6" rel="modal:open">
+              <div class="icon">
+                <i class="fa-regular fa-file-lines"></i>
+              </div>
+              <div class="topic">Certification</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+                eligendi?</p>
+            </a>
+          </div>
+          <div id="cert6" class="modal">
+            <p>Thanks for clicking. More certifications coming soon.</p>
+            <a href="#" rel="modal:close">Close</a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section Start -->
+  <section class="portfolio" id="portfolio">
+    <div class="content">
+      <div class="title"><span>My Portfolio</span></div>
+      <div class="boxes">
+        <div class="box">
+          <a href="#portfolio1" rel="modal:open">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Project</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+              eligendi?</p>
+          </a>
+        </div>
+        <div id="portfolio1" class="modal">
+          <p>Thanks for clicking. More projects coming soon.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+        <div class="box">
+          <a href="#portfolio2" rel="modal:open">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Project</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+              eligendi?</p>
+          </a>
+        </div>
+        <div id="portfolio2" class="modal">
+          <p>Thanks for clicking. More projects coming soon.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+        <div class="box">
+          <a href="#portfolio3" rel="modal:open">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Project</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+              eligendi?</p>
+          </a>
+        </div>
+        <div id="portfolio3" class="modal">
+          <p>Thanks for clicking. More projects coming soon.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+        <div class="box">
+          <a href="#portfolio4" rel="modal:open">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Project</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+              eligendi?</p>
+          </a>
+        </div>
+        <div id="portfolio4" class="modal">
+          <p>Thanks for clicking. More projects coming soon.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+        <div class="box">
+          <a href="#portfolio5" rel="modal:open">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Project</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+              eligendi?</p>
+          </a>
+        </div>
+        <div id="portfolio5" class="modal">
+          <p>Thanks for clicking. More projects coming soon.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+        <div class="box">
+          <a href="#portfolio6" rel="modal:open">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Project</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem
+              eligendi?</p>
+          </a>
+        </div>
+        <div id="portfolio6" class="modal">
+          <p>Thanks for clicking. More projects coming soon.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <!-- <h1><i class="fas fa-light fa-location-dot"></i>Location - Phoenix, Arizona</h1> -->
+        <div class="box">
+          <div id="map"></div>
+          <div class="info">
+            <p><a href="#contact"><i class="fas fa-light fa-location-dot"></i> Phoenix, Arizona</a></p>
+            <p><a href="tel:+14807207080"><i class="fas fa-mobile-screen-button"></i> 480.720.7080</a></p>
+            <p><a href="mailto:robert.c.garcia@gmail.com"><i class="fa-solid fa-envelope"></i>robert.c.garcia@gmail.com</a></p>
+            <p><a href="http://linkedin.com/in/robertcgarcia" target="_blank"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a></p>
+            <p><a href="https://github.com/robertcgarcia" target="_blank"><i class="fab fa-lg fa-brands fa-github"></i>GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>&copy; 2022 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <!-- Scripts-->
+  <script src="https://kit.fontawesome.com/a9164c053a.js" crossorigin="anonymous"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx3UBsOimkl3qZkTSwC8i-rJlIexQPfdM&callback=initMap"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

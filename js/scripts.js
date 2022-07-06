@@ -5,6 +5,14 @@ let scrollBtn = document.querySelector(".scroll-button a");
 
 let val;
 
+let dateObj = new Date();
+let year = dateObj.getFullYear();
+
+window.onload = function() {
+  document.getElementById('#currentYear').val = year;
+}
+
+
 window.onscroll = function() {
   if(document.documentElement.scrollTop > 20){
     nav.classList.add("sticky");
@@ -66,3 +74,4 @@ function initMap() {
 }
 
 window.initMap = initMap;
+

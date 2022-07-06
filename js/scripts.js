@@ -5,11 +5,11 @@ let scrollBtn = document.querySelector(".scroll-button a");
 
 let val;
 
-let dateObj = new Date();
-let year = dateObj.getFullYear();
+window.onload = currentYear = () => {
+  let dateObj = new Date();
+  let year = dateObj.getFullYear();
 
-window.onload = function() {
-  document.getElementById('#currentYear').val = year;
+  document.getElementById("currentYear").innerHTML = year;
 }
 
 

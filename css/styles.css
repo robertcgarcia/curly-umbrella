@@ -243,7 +243,7 @@ section .title span::after{
 
 /* Blockquote main style */
 .blockquote-wrapper{
-  padding: 0 10px 25px 30px;
+  padding: 0 10px 0 30px;
 }
 .blockquote {
   position: relative;
